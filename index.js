@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { BooleanPrompt, Select, Input } = require('enquirer');
 const { decode, encode } = require("./base64");
 const { encrypt } = require('./md5');
